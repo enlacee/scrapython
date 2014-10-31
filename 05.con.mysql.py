@@ -11,3 +11,5 @@ cursor.execute('SELECT VERSION()')
 data = cursor.fetchone()
 
 print "Data MYSQL version : %s " % data
+
+db.close()
